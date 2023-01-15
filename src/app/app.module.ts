@@ -17,6 +17,7 @@ import { ConfirmModule, EventBus, UtilsModule } from '@upupa/common';
 import { DataModule } from '@upupa/data';
 import { UploadModule } from '@upupa/upload';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { HomeModule } from './home/home.module';
 
 const x = { DEFAULT_SIGNIN };
 const signinProvider: Provider = {
