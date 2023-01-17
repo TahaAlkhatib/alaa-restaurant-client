@@ -1,0 +1,28 @@
+:host{
+    width: 100vw;
+    display: grid;
+    gap: 10px;
+    max-height: 200px;
+    height: 100%;
+    justify-items: center;
+    align-items: center;
+    padding: 25px;
+
+}
+.wide-btn {
+    background: var(--color-primary);
+    border-radius: 15px;
+    max-width: 313px;
+    max-height: 68px;
+    min-height: 50px;
+    height: 100%;
+    width: 100%;
+    color: white;
+
+    &:hover {
+        background: var(--color-primary-shade20);
+        color: var(--color-primary);
+
+    }
+    
+}

@@ -37,9 +37,47 @@
 @import '~swiper/scss';
 @import '~@ionic/angular/css/ionic-swiper';
 
+:root {
+  --color-primary: #8D515C;
+  --color-secondry-harvest-gold: #EAB668;
+  --color-secondry-bright-red: #FF0F0F;
+  --color-trapani: #8F7963;
+  --color-melenzane: #184772;
+  --color-recco: #515F32;
+  --color-masgouf: #3C4458;
+  --color-the-grove: #24353F;
+  --color-gradient-melanzane: linear-gradient(90deg, #468BAB 0%, #122744 100%);
+  --color-gradient-masgouf-london: linear-gradient(90deg, #87AB8F 0%, #89715D 100%);
+  --color-gradient-recco: linear-gradient(90deg, #8C9E71 0%, #4D5C38 100%);
+  --color-gradient-trapani: linear-gradient(90deg, #B8AD87 0%, #89715D 100%);
+  --color-gradient-the-grove: linear-gradient(90deg, #25343E 0%, #D3BAAE 100%);
+  --color-primary-shade80: #8d515ccc;
+  --color-primary-shade60: #8d515c99;
+  --color-primary-shade40: #8d515c66;
+  --color-primary-shade20: #8d515c33;
+  --color-bronze:#976a4d;
+  --color-bronze-shade80:#976a4dcc;
+  --color-bronze-shade60:#976a4d99;
+  --color-bronze-shade40:#976a4d66;
+  --color-bronze-shade20:#976a4d33;
 
+
+}
 
 // placed here instead of tutorial.scss due to slide els not getting ng scoping attribute
 .swiper-slide {
   display: block;
+}
+
+
+.mat-toolbar{
+  background: transparent;
+  color: #8D515C;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+}
+.btn{
+  background-color: transparent;
+  img{
+      max-width: 30px;
+  }
 }
