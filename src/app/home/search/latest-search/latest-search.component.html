@@ -1,0 +1,30 @@
+<div class="latestSearches">
+
+    <div class="list-item" *ngFor="let search of latestSearch">
+        <mat-icon>history</mat-icon>
+        <a>{{ search }}</a>
+        <button class="btn" mat-icon-button (click)="showInfo(search)">
+            <mat-icon>close</mat-icon>
+        </button>
+    </div>
+
+</div>
+<div class="popularSearchesContainer">
+    <h4>Popular searches</h4>
+    <div class="popularSearch">
+        <button class="textBtn" *ngFor="let search of popularSearches">
+            {{search}}
+        </button>
+    </div>
+</div>
+<div class="our-restaurants">
+    <h4>Our restaurants</h4>
+    <div class="img-holder">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+        <img src="/assets/img/restaurant.jpeg" alt="resturant">
+    </div>
+</div>

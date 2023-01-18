@@ -1,0 +1,18 @@
+::ng-deep .ion-page{
+    justify-content: flex-start !important;
+  }
+:host{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100vh;
+    overflow: auto;
+    align-items: start;
+}
+.toolbar-top-content{
+    display: flex;
+    align-items: flex-end;
+}
+.router{
+    display: none;
+}

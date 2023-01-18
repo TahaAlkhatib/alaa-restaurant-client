@@ -1,1 +1,23 @@
-search
+<mat-toolbar>
+    <mat-toolbar-row class="toolbar-top-content">
+
+    <button class="btn" (mousedown)="back()">
+        <mat-icon>
+            chevron_left   
+        </mat-icon>
+    </button>
+    <span>eat</span>
+</mat-toolbar-row>
+    <mat-toolbar-row>
+        <div class="input-holder">
+            <input class="input" type="search">
+            <mat-icon>
+                search
+            </mat-icon>
+        </div>
+    </mat-toolbar-row>
+</mat-toolbar>
+<router-outlet class="router"></router-outlet>
+<section class="copyrights">
+    <p>© Copyright 2022, Seazen Group </p>
+</section>

@@ -1,4 +1,9 @@
 <mat-toolbar class="toolbar">
+    <button class="btn" (mousedown)="back()">
+        <mat-icon>
+            chevron_left   
+        </mat-icon>
+    </button>
     <span>eat</span>
 </mat-toolbar>
 <router-outlet style="display: none;"></router-outlet>
@@ -10,7 +15,7 @@
       </mat-list>
 </section>
 <section class="seazon">
-<img src="/assets/icons/seazon.svg" alt="">
+<img src="/assets/img/seazon.png" alt="">
 </section>
 <section class="social-privacy">
     <div class="social">

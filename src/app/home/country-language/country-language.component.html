@@ -1,0 +1,19 @@
+<p>اختر لغتك و بلدك المفضل</p>
+<p>Select your preferred language and country</p>
+<div id="btns-holder">
+    <div class="custom-checkbox">
+        <input id="status" type="checkbox" name="status" [checked]="isChecked"
+        (change)="isChecked = !isChecked">
+        <label for="status">
+            <div class="status-switch" data-unchecked="Stickers" data-checked="Quick chat">
+            </div>
+        </label>
+    </div>
+</div>
+<mat-list>
+    <mat-list-item *ngFor="let country of countries">
+      <img src="{{country.flag}}" alt="">
+      <p matListItemLine>{{country.name}}</p>
+    </mat-list-item>
+  </mat-list>
+<button class="countinue">Countinue</button>

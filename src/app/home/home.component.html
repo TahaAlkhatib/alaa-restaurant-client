@@ -6,17 +6,15 @@
         <span class="spacer"></span>
         <span>eat</span>
         <span class="spacer"></span>
-        <button mat-icon-button class="btn country-icon" routerLink="search" >
+        <button mat-icon-button class="btn country-icon" (mousedown)="goToSearch()" >
             <mat-icon>search</mat-icon>
         </button> 
-        <button mat-icon-button class="btn country-icon" routerLink="search" >
+        <button mat-icon-button class="btn country-icon" routerLink="country-language" >
             <img src="/assets/icons/flag.svg" alt="">
         </button> 
     </mat-toolbar-row>
    
-    <mat-toolbar-row>
-        <input type="search">
-    </mat-toolbar-row>
+
   </mat-toolbar>
 
   <router-outlet></router-outlet>

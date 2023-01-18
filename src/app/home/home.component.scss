@@ -1,18 +1,20 @@
-
-::ng-deep .ion-page{
+::ng-deep .ion-page {
   justify-content: flex-start !important;
 }
 
 .spacer {
-    flex: 1 1 auto;
-  }
+  flex: 1 1 auto;
+}
 
-  .btn{
-    background-color: transparent;
-    img{
-        max-width: 30px;
-    }
+.btn {
+  background-color: transparent;
+
+  img {
+    max-width: 30px;
   }
-  ::ng-deep .ion-page{
-    justify-content: flex-start !important;
-  }
+}
+
+::ng-deep .ion-page {
+  justify-content: flex-start !important;
+}
+
